@@ -27,9 +27,9 @@ graph LR
 #This is the brief flow chart of the for loop inside the code
 ```mermaid
 graph TD
-id1[LOOP]-->id2[TAF]
-id1[LOOP]-->id3[BECMG]
-id1[LOOP]-->id4[TEMPO]
+id1[LOOP_start]-->id2[TAF]
+id1[LOOP_start]-->id3[BECMG]
+id1[LOOP_start]-->id4[TEMPO]
 id2-->id5[AMD/COR]
 id2-->id6[TAFonly]
 id5-->id7[WX]
@@ -45,6 +45,6 @@ id11-->id7
 id12-->id8
 id4-->id11
 id4-->id12
-id10-->id1
+id10-->id13[LOOP_next]
 ```
 >Done on 15, Spetember, 2022 [name=peterpan]# This Readme is for User guide
