@@ -1,6 +1,9 @@
 # USER GUIDE
 ## :memo: Where do I start?
-
+### 此專案主要含 
+1. read_TAF.py (main)
+2. crawler.py (for crawling data)
+3. preprocess.py (rearrange the raw data to the readable form)
 ### Step: Follow the steps below:
 💡
 - [X] Run the read_TAF.py at first
@@ -8,6 +11,11 @@
 - [X] Type in your CAA Account & Password
 - [X] Result will only show the airport with WX
 - NOTE: MAKE SURE YOU INSTALL THE google chrome webdriver
+- NOTE: The path in preprocess.py is the location of your webdriver
+- Please refer the following link for webdriver resource
+- Crawling data is in crawler.py
+[webdriver resource](https://www.youtube.com/watch?v=ximjGyZ93YQ&t=2935s)
+
 - Contact *r07229013@ntu.edu.tw* if you have any problems
 ### Process :
 ```mermaid
@@ -38,5 +46,4 @@ id12-->id8
 id4-->id11
 id4-->id12
 ```
-![](https://i.imgur.com/4powZkZ.png)
 >Done on 15, Spetember, 2022 [name=peterpan]# This Readme is for User guide
